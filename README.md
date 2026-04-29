@@ -30,7 +30,6 @@ This project was developed as part of a technical case study to demonstrate mobi
 * React Navigation (Stack & Bottom Tab)
 * Context API (State Management)
 * AsyncStorage (Local Persistence)
-* Animated API
 
 ---
 
