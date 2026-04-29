@@ -80,7 +80,7 @@ Password: 123456
 ## 🎥 Demo
 
 You can try the app directly via APK:
-https://expo.dev/artifacts/eas/dcfUQAXwTfkzPfKDjxxjkn.apk
+https://expo.dev/artifacts/eas/43zfgcXNz7KBeTeG7XhhYQ.apk
 
 ---
 

@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { View, Animated, TouchableWithoutFeedback, Text } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Ionicons from "@expo/vector-icons/Ionicons";
 
 import CourseListScreen from "../screens/CourseListScreen";
@@ -9,14 +10,17 @@ import ProgressScreen from "../screens/ProgressScreen";
 const Tab = createBottomTabNavigator();
 
 const CustomTab = ({ state, descriptors ,navigation }) => {
+  const inset = useSafeAreaInsets();
+
   return (
     <View
       style={{
         position: "absolute",
-        bottom: 16,
+        bottom: 16 + inset.bottom,
         left: 16,
         right: 16,
-        height: 64,
+        paddingBottom: 4,
+        height: 68,
         backgroundColor: "#fff",
         borderRadius: 20,
         flexDirection: "row",
