@@ -118,3 +118,7 @@ Mobile Developer (React Native)
 ## 💬 Notes
 
 This project focuses on clean architecture, application flow, and scalability rather than complex UI design.
+
+## 🎥 Demo
+
+APK: https://expo.dev/artifacts/eas/dcfUQAXwTfkzPfKDjxxjkn.apk
